@@ -1,0 +1,235 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Login-container{
+    width: 80%;
+    height: 596px;
+    background-color: #fff;
+    border: 2px solid rgba(30, 5, 5, 0.092);
+    color: #000;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img {
+    flex: 50;
+    display: flex;
+    justify-items: right;
+    align-items: right;
+}
+
+img{
+    width :100%;
+    height: 89%;
+}
+
+form{
+    margin:6%;
+    flex: 1 1 40%;
+}
+
+.Login-container .input-box{
+    width:250px;
+    height:40px;
+    margin: 30px 38px;
+}
+
+i.bx.bxs-user-circle{
+    left: -38px;
+    border: 2px solid rgba(30, 5, 5, 0.092);
+    font-size: 37px;
+}
+
+i.bx.bx-key{
+    left:-38px;
+    border: 2px solid rgba(30, 5, 5, 0.092);
+    font-size: 37px;
+}
+
+.input-box input{
+    width: 108%;
+    height: 100%;
+    border: 2px solid rgba(30, 5, 5, 0.092);
+    border-radius: 2px;
+    
+}
+
+.input-box i{
+    position: absolute;
+    right: -12px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+
+}
+
+.Login-container.remember-btn{
+    display:flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-left: 25px;
+}
+
+.remember-btn label input{
+    accent-color: black;
+    margin-left: 10px;
+}
+
+.remember-btn a{
+    color: #000;
+    text-decoration: none;
+}
+
+.remember-btn a:hover{
+    text-decoration: underline;
+}
+
+.Login-container .btn{
+    width: 15%;
+    height: 36px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30px;
+    background-color: hsla(242, 88.4%, 56.3%, 1);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.Login-container .register-link{
+    font-size: 14.5px;
+    margin: 15px 0  15px;
+}
+
+.register-link p a  {
+    
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a.forgot {
+    margin-left: 90px;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+hr {
+    width: 75%;
+}
+
+.face-login i{
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #fff;
+    border: 2px solid rgb(0 0 0);
+    background-color: #000089;
+    border-radius: 6px 0 0 6px;
+    border: none;
+}
+
+.twit-login i{
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #fff;
+    border: 2px solid rgb(0 0 0);
+    background-color: #009ac9;
+    border-radius: 6px 0 0 6px;
+    border: none;
+}
+
+.goog-login i{
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #fff;
+    border: 2px solid rgb(0 0 0);
+    background-color: #c40000;
+    border-radius: 6px 0 0 6px;
+    border: none;
+}
+
+.btn-lif{
+    margin: 25px;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(242deg 86.82% 35.74%);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+}
+
+.btn-lit{
+    margin: 25px;
+    width: 250px;
+    height: 40px;
+  background-color: hsl(188, 100%, 51%);
+  color: #fff;
+    font-size: 13px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+}
+
+.btn-lig{
+    margin: 25px;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(0, 100%, 50%);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+}
+
+@media (max-width:768px) {
+    .Login-container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .img{
+        width:100%;
+        height: auto;
+    }
+
+    form{
+        width:100%;
+        margin: 0;
+    }
+
+    .input-box {
+        width:100%;
+        margin: 10px 0;
+    }
+
+    .btn{
+        width:100%;
+        margin: 10px 0;
+    }
+}
